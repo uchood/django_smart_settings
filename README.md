@@ -11,7 +11,7 @@ INSTALLED_APPS = (
     ...
 )
 ```
-
+thsi setting wil be copied to database if they don exist at start server
 ```
 DEFAULT_SMART_OPTIONS = {
     'global': [
