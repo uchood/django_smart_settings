@@ -45,7 +45,7 @@ def add_key_to_options(**kwargs):
     try:
         exist_already = check_exist_key_in_options(key=query['key'])
         if not exist_already:
-            new_option, created = ConfigOfServer.get_or_create(**query)
+            new_option, created = ConfigOfServer.objects.get_or_create(**query)
             new_option.save()
             result = new_option.id
     except Exception as e:
