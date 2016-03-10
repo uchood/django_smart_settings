@@ -1,5 +1,5 @@
 # django_smart_settings
-store and inintialize from settings.py smart setting  with ghrouping, types and deescriptions
+store and initialize from settings.py smart settings with ghrouping, types and descriptions
 django >=1.7
 
 # settings.py 
