@@ -11,7 +11,7 @@ INSTALLED_APPS = (
     ...
 )
 ```
-Setting from DEFAULT_SMART_OPTIONS  will be copied to database  at start server. If they already exist will nothing do.
+Setting from DEFAULT_SMART_OPTIONS  will be copied to database  at start server. If they already exist will nothing to do.
 ```
 DEFAULT_SMART_OPTIONS = {
     'global': [
