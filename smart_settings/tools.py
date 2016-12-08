@@ -56,20 +56,20 @@ def add_key_to_options(**kwargs):
 
 def check_and_add_keys_to_options(options):
     example_options = {
-        'vpn': [
+        'time_limits_on_off': [
             {
-                'key': 'auto_vpn_off_interval_in_min',
+                'key': 'auto_off_interval_in_min',
                 'type_of_value': u'INT',
                 'value': 0,
-                'description': u'Время в минутах, через которое автоматически будет отдана команда на выключение vpn в'
-                               u' зоне, в случае тревоги. Если 0 - автоматическое отключения vpn не производится.',
+                'description': u'Время в минутах, через которое автоматически будет отдана команда на выключение.'
+                               u' Если 0 - автоматическое отключения не производится.',
             },
             {
-                'key': 'interval_blocking_in_off_vpn_state_in_min',
+                'key': 'interval_blocking_in_off_state_in_min',
                 'type_of_value': u'INT',
                 'value': 0,
-                'description': u'Время в минутах после отключения vpn, в течении которого игнорируются команды '
-                               u'на включение VPN. Если 0 - нет блокировок.',
+                'description': u'Время в минутах после отключения, в течении которого игнорируются команды '
+                               u'на включение. Если 0 - нет блокировок.',
             },
         ]
     }
